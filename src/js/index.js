@@ -12,4 +12,3 @@ import Variables from './Variables';
 import * as THREE from './THREE.js';
 import { NoToneMapping } from 'three';
 import '../css/style.css';
-import micelle from '../../static/models/GLB/micelle.glb';

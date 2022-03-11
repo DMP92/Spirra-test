@@ -74,6 +74,7 @@ html
 {
     scroll-snap-type: x proximity !important;
     scroll-snap-type: y proximity !important;
+    overflow-x: hidden !important;
 }
 
 body
@@ -89,7 +90,6 @@ body
     flex-direction: column;
     align-items: center;
     overscroll-behavior: none;
-
 }
 
 body.stop-scroll
