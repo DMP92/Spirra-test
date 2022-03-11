@@ -7,7 +7,7 @@ import menu from './menu.js';
 import section1 from './section1.js';
 import section2 from './section2.js';
 import section3 from './section3.js';
-import section4 from './section4.js';
+import section4 from './Section4.js';
 import Variables from './Variables';
 import * as THREE from './THREE.js';
 import { NoToneMapping } from 'three';
