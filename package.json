@@ -28,9 +28,12 @@
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.3",
     "file-loader": "^6.2.0",
+    "gsap": "^3.9.1",
     "ip": "^1.1.5",
+    "on-load": "^4.0.2",
     "portfinder-sync": "^0.0.2",
     "raw-loader": "^4.0.2",
+    "three": "^0.138.3",
     "vercel": "^24.0.0"
   }
 }

@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './src/js/index.js',
     plugins: [
         new HtmlWebpackPlugin({
             inject: false,
@@ -44,6 +44,20 @@ module.exports = {
             {
                 test: /\.xml$/i,
                 use: ['xml-loader'],
+            },
+             
+            // Shaders
+            {
+                test: /\.(glsl|vs|fs|vert|frag)$/,
+                type: 'asset/source',
+                loader: 'glsl-loader'
+            },
+
+            // GLB
+            {
+                test: /\.(glb|gltf)$/,
+                type: 'asset/source',
+                loader: 'file-loader'
             },
             
         ],
