@@ -41,18 +41,6 @@ dracoLoader.setDecoderPath('/draco/');
 const gltfLoader = new GLTFLoader();
 gltfLoader.setDRACOLoader(dracoLoader);
 
-gltfLoader.load(
-    '8dbe883e82cec5b208a5bbf19abb98b4.glb',
-    (gltf) =>
-    {
-        // console.log(gltf);
-
-        gltf.scene.scale.set(.05, .05, .05);
-        scene.add(gltf.scene);
-        camera.lookAt(gltf.scene.position);
-    }
-)
-
 /**
  * Textures
  */
